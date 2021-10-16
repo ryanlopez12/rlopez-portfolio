@@ -1,0 +1,71 @@
+html * {
+    font-family: 'Questrial', sans-serif;
+    margin: 20px;
+}
+
+.whole-top {
+    flex-wrap: nowrap;
+    flex-flow: row;
+}
+
+.big-title1 {
+    
+    font-weight: bolder;
+    float: left;
+    background-color: white;
+    margin: 20px;
+    border: 10px solid tan;
+    padding: 19px;
+    border-radius: 20px;
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: lightskyblue;
+    border-radius: 20px;
+}
+
+.nav-bar a {
+    
+    color: white;
+    float: right;
+    font-size: 18px;
+    text-align: right;
+    padding: 26px 26px;
+    margin-bottom: 6px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+.nav-bar ul {
+    display: inline-block;
+    float: right;
+}
+
+.nav-bar a:hover {
+    color: white;
+    background-color: tan;
+    border-radius: 20px;
+}
+
+.about-title {
+    display: inline-block;
+    background-color: rgb(114, 194, 243);
+    padding: 15px;
+    border-radius: 20px;
+    border: rgb(0, 152, 253) solid 5px;
+}
+
+.about-me p {
+    display: inline-flexbox;
+    box-sizing: content-box;
+    background-color: tan;
+    width: 320px;
+    padding: 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+hr {
+    size: 10px;
+}
