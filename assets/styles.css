@@ -111,6 +111,7 @@ html * {
 
 .family {
     display: inline-block;
+    flex: none;
     margin: 30px auto auto 20px;
     border: rgb(71, 47, 25) solid 10px;
     border-radius: 20px;
@@ -119,14 +120,12 @@ html * {
 }
 
 .flexyconts {
-    display: inline;
-    flex: 
+    flex-flow: row;
 }
 
 .horiseon {
     border-radius: 50px;
     border:rgb(114, 194, 243) solid 10px;
-    display: 0 1 auto;
     margin: 25px 25px 10px 0px;
     /* margin-left: 325px; */
     padding: 0px;
@@ -134,17 +133,18 @@ html * {
     height: fit-content;
     contain: content;
     background-color: tan;
-    flex: 4 4 auto;
+    flex: none;
+    
 }
 
-.robot, .run, .comingsoon {
-    display: inline-block;
+.robot ,.run, .comingsoon ,.consolethis {
     border-radius: 50px;
     border:rgb(114, 194, 243) solid 10px;
     width: fit-content;
     height: fit-content;
     contain: content;
     background-color: tan;
+    display: inline-block;
 }
 
 .contact-me {
