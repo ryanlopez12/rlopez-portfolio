@@ -137,7 +137,7 @@ html * {
     
 }
 
-.robot ,.run, .comingsoon ,.consolethis {
+.robot , .run, .comingsoon , .consolethis {
     border-radius: 50px;
     border:rgb(114, 194, 243) solid 10px;
     width: fit-content;
